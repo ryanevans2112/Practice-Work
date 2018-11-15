@@ -1,0 +1,10 @@
+function countDown(){
+  let i;
+  console.log("Countdown:" );
+  for (i=5; i>=0; i--) {
+    setTimeOut(function() {
+      console.log(i===0 ? "GO!" : i);
+      }, (5-i)*1000);
+      
+      }
+      }
